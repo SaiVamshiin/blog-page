@@ -15,13 +15,8 @@ if(!isset($_SESSION["pseudo"])){
     <title>Document</title>
 </head>
 <body>
+    <?php require 'nav-bar.php';?>
     <h1>Admin</h1>
-    
-<nav>
-    <a href="index.php">Home</a>
-    <a href="admin.php">admin</a>
-    <a href="login.php">Login</a>
-    <a href="disconnect.php">Disconnect</a>
-</nav>
+
 </body>
 </html>
