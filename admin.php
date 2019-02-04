@@ -17,9 +17,11 @@ if(!isset($_SESSION["pseudo"])){
 <body>
     <h1>Admin</h1>
     
-    <nav>
+<nav>
+    <a href="index.php">Home</a>
+    <a href="admin.php">admin</a>
+    <a href="login.php">Login</a>
     <a href="disconnect.php">Disconnect</a>
-
-    </nav>
+</nav>
 </body>
 </html>

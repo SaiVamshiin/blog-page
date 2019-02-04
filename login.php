@@ -7,6 +7,15 @@
     <title>Document</title>
 </head>
 <body>
+
+<nav>
+    <a href="index.php">Home</a>
+    <a href="admin.php">admin</a>
+    <a href="login.php">Login</a>
+    <a href="disconnect.php">Disconnect</a>
+    
+
+    </nav>
     <form action="login_post.php" method="post">
         <input type="text" placeholder="pseudo" name="pseudo">
         <input type="password" placeholder="password" name="password">
