@@ -13,7 +13,10 @@
  $req = $db->query('SELECT * FROM posts');
  $req->execute();
 
- while( $donnees = $req->fetch());
- var_dump($donnees);
-
   //while show all posts
+  while($row = $req->fetch(PDO::FETCH_ASSOC)){
+     echo "<h2>{$row["title"]}<h2>";
+     
+     echo "<p>{$row["content"]}<p>";
+  
+  }
