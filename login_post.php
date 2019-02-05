@@ -1,4 +1,9 @@
 <?php
+
+
+
+
+
 // Si pseudo égale à admin et password égale à admin
 if($_POST["pseudo"] === "admin" && $_POST["password"] === "admin") {
     session_start();
