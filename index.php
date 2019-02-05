@@ -8,3 +8,6 @@
     
     ?>
  <h1>Blog-Talis</h1>
+<?php
+ //Select all post to dba_close
+ //while show all posts
