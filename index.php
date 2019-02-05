@@ -10,6 +10,8 @@
 <body>
     <h1>Blog-Talis</h1>
     <section id="welcome">
+    <?php require_once 'nav-bar.php';?>
+
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
