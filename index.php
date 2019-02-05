@@ -10,4 +10,10 @@
  <h1>Blog-Talis</h1>
 <?php
  //Select all post to dba_close
- //while show all posts
+ $req = $db->query('SELECT * FROM posts');
+ $req->execute();
+
+ while( $donnees = $req->fetch());
+ var_dump($donnees);
+
+  //while show all posts
