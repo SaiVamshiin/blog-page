@@ -1,5 +1,4 @@
 <?php
 session_start();
 session_destroy();
-header("Location: login.php?message=Disconnect done!")
-?>
+header("Location: login.php?message=Disconnect done!");
