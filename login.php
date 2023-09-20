@@ -15,7 +15,7 @@
         <input type="submit" value="Connexion">
     </form>
     <?php
-    if(isset($_GET["message"])){
+    if(isset($_GET["message"])){ 
         echo $_GET["message"];
     }
     ?>
